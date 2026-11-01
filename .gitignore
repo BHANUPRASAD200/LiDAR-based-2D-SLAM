@@ -1,0 +1,55 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# SLAM Outputs & Large Binary Files
+# ==============================================================================
+# Dynamic SLAM output directories generated during runtime
+slam_results_unified/
+evaluation_results/
+output/
+
+# Point Cloud data (>30MB - recommend GitHub Releases or Git LFS)
+*.pcd
+*.ply
+
+# ROS Bags & Raw Sensor Recordings
+*.bag
+*.bag.active.*
+
+# ==============================================================================
+# Operating System & IDE Files
+# ==============================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+

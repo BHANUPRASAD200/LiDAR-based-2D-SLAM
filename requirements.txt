@@ -1,0 +1,19 @@
+# Core Scientific and Numerical Computing
+numpy>=1.22.0
+scipy>=1.8.0
+pandas>=1.4.0
+
+# 3D Point Cloud Processing
+open3d>=0.16.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.5.0
+
+# Plotting & Visualization
+matplotlib>=3.5.0
+tqdm>=4.64.0
+
+# Interactive Notebooks (Optional for running notebooks/)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
